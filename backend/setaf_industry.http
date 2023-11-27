@@ -1,0 +1,20 @@
+GET http://localhost:2030/show
+
+
+
+###
+POST http://localhost:2030/insert
+Content-Type: application/json
+
+{  
+    "S_NO":"0",
+    "Faculty_name":"bharathi",
+    "Date_of_visit":"02.07.2024",	
+    "Name_of_industry":"ej",	
+    "Location_of_industry":"chennai",	
+    "Website_link_of_industry":"www.ej.com",	
+    "Name_of_insdustry_instution_person_interacted":"nothing",	
+    "Designation_of_industry_instution_person_interacted":"barani",	
+    "Purpose_of_the_visite":"enjoying",
+    "Outcome_of_the_activity":"nothing"
+}

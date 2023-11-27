@@ -1,0 +1,114 @@
+html{
+    min-height: 100%;
+  } 
+  body{
+    background-color: rgb(183, 243, 243);
+    
+  } 
+      .overallcontent{
+        width: 45%;
+        padding: 65px;
+        background-color:rgba(255, 255, 255, 0.961);
+        font-family: 'Times New Roman', Times, serif;
+        border-radius: 7px;
+        /* margin-top: 20px;
+        margin-bottom: 10px;
+        margin-left: 30%; */
+        margin: 0 auto;
+        box-shadow: 0px 0px 0px rgba(0, 0, 0,0.1);
+      
+      }
+      .overallcontent label {
+        display: block;
+       
+      }
+  
+  
+      .block  {
+        flex-direction: block;
+      
+      }
+      .font{
+        font-size: 20px;
+        color: azure;
+      }
+      hr{
+        border-top: 3px;
+        color: rgb(190, 39, 39);
+        /* border-overallcontent: solid;  */
+  
+  
+      }
+      .head{
+            text-align: left;
+            color: aqua;
+            margin-bottom: 50px;
+      }
+      .overallcontent h1{
+        color: purple;
+        
+      }
+      .overallcontent tr{
+        color: black;
+        
+      }
+      .tech{
+        color: whitesmoke;
+      }
+      .content input {
+        width: 100%;
+        border-radius: 9px;
+        border-color: black;
+        border-width: 3px;
+        padding: 5px;
+        margin-bottom: 25px;
+      }
+      .clear{
+        margin-left: 385px; 
+        
+      } 
+      .submit{
+            margin-left: 10px;
+      }
+  
+      .overallcontent button{
+        background-color : lightskyblue;
+        border-radius:10px;
+        padding: 5px;
+        border-color: white;
+        border-width:3px;
+      }
+      .year{
+        color: aquamarine;
+      }
+      /* input:focus{
+        background-color: #b5c0b2 ;
+      } */
+      .tech input{
+        accent-color:rgb(34, 223, 13);
+        height: 20px;
+        width: 20px;
+        border: 2px;    
+      }
+     
+      .content{
+        padding-left: 25px;
+        background-color: #faf4f4;
+        border-radius: 30px;
+        padding-top: 50px;
+       
+      }
+      .size{
+        width: 45%;
+  
+      }
+      select{
+        width: 510px;
+        height: 40px;
+        border-radius: 7px;
+        border-color: black;
+        margin-bottom: 25px;
+  
+      }
+  
+    
