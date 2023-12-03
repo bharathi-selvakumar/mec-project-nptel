@@ -1,0 +1,17 @@
+GET http://localhost:2020/show
+
+###
+POST http://localhost:2020/insert
+Content-Type: application/json
+
+{
+    "S_NO":1,
+    "Academic_year":"2023-24",
+    "Semester":"odd",
+    "Name_of_the_faculty":"bharathi",
+    "Year":"2023",
+    "Session":"a",
+    "Course_name":"cse",
+    "Score_obtained":70,
+    "Certificat":"gold"
+}
